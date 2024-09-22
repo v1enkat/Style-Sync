@@ -45,4 +45,4 @@ app.use("/", indexRouter);
 app.listen(port,function(err){
     console.log("Running..........");
 }); 
- 
+module.exports = app;
