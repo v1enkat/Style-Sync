@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-mongoose.connect("mongodb://127.0.0.1:27017/F1lash")
+mongoose.connect("mongodb+srv://v1enkat:12345678venkat@cluster0.q8vx9.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
 const productSchema = mongoose.Schema({
     image:Buffer,
